@@ -1,0 +1,108 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.slider-section {
+    margin-bottom: 5%;
+}
+
+
+
+.column-3 {
+    border-radius: 30px;
+}
+
+.carousel-item img {
+    height: 100vh;
+    width: 100%;
+}
+
+.background-gradient {
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+}
+
+footer {
+    padding: 5%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 70px;
+}
+
+.toast {
+    background-image: linear-gradient(315deg, #d4418e 0%, #0652c5 74%);
+}
+
+.toast-class {
+    width: 80%;
+    position: absolute;
+    /* top: 0; */
+    right: 22px;
+    bottom: 40px;
+}
+
+.toast-header {
+    height: 50px;
+    color: black;
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+
+    .toast-class {
+        position: relative;
+        bottom: 140px;
+        right: 78px;
+    }
+
+    .carousel-item img {
+        height: 80vh;
+    }
+
+}
+
+@media (min-width:576px) and (max-width: 768px) {
+    .toast-class {
+        bottom: 140px;
+        right: 75px;
+    }
+
+    .carousel-item img {
+        height: 80vh;
+    }
+}
+
+@media (min-width:480px) and (max-width:576px) {
+
+    .toast-class {
+        bottom: 79px;
+        right: 97px;
+    }
+}
+
+@media (min-width:380px) and (max-width:480px) {
+    .toast-class {
+        width: 70%;
+        bottom: 74%;
+        right: 14%;
+    }
+}
+
+@media (max-width:380px) {
+    .toast-class {
+        bottom: 78%;
+        right: 10%;
+    }
+
+    .toast {
+        margin: 0;
+    }
+}
+
+
+
+.column-3 span {
+    right: 0;
+}
